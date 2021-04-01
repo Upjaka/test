@@ -4,17 +4,16 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LoginTest extends BaseTest{
+public class LoginTest extends BaseTest {
 
-    WebDriver driver;
     String username = "Test";
     String password = "12qw!@QW";
 
 
     @Before
     public void start() {
-        driverInit();
-        get();
+        this.driverInit();
+        this.get();
     }
 
     @Test

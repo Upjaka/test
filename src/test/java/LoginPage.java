@@ -6,7 +6,7 @@ public class LoginPage {
     WebDriver driver;
     private String LOGIN_LOCATOR = ".//input[@id='field_email']";
     private String PASSWORD_LOCATOR = ".//input[@id='field_password']";
-    private String SIGN_IN_LOCATOR = ".//*[@value='Войти в Одноклассники']";
+    private String SIGN_IN_LOCATOR = ".//input[@class='button-pro __wide']";
 
     LoginPage(WebDriver driver) {
         this.driver = driver;

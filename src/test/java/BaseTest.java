@@ -6,11 +6,10 @@ public class BaseTest {
     WebDriver driver;
 
     BaseTest() {
-
     }
 
     public void driverInit() {
-        System.setProperty("webdriver.chrome.driver", "/Users/elenapranova/Documents/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:/Users/alesa/Documents/chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
